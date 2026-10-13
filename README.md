@@ -24,15 +24,4 @@ Defeat enemies, collect dropped crystals, survive increasingly difficult waves, 
 | `style.css` | Responsive layout and visual design |
 | `game.js` | Gameplay, rendering, input, enemy AI, scoring and collision logic |
 
-## 🚀 Publish on GitHub Pages
 
-1. Upload all files to the root of your GitHub repository.
-2. Open **Settings → Pages**.
-3. Select **Deploy from a branch**, then select `main` and `/(root)` (if appropriate for your repository).
-4. Open `https://basiliskouloumpis.github.io/fantasy-2d-arcade/` after deployment.
-
-No build tools or external packages are required.
-
-## 🔧 Extend the game
-
-Add character sprites, sound effects, boss fights, levels, upgrades, or a leaderboard. The game is a single-player browser prototype and does not use a backend.
