@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#101528" />
+  <meta name="description" content="Fantasy 2D Arcade — an original browser-based dungeon survival game." />
+  <title>Fantasy 2D Arcade — Dungeon Defender</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="top"><div><div class="eyebrow">⚔ FANTASY 2D ARCADE</div><h1>Dungeon Defender</h1><p>Survive the creatures. Collect crystals. Become a legend.</p></div><div class="scoreboard"><div><span>SCORE</span><strong id="score">0</strong></div><div><span>BEST</span><strong id="best">0</strong></div><div><span>WAVE</span><strong id="wave">1</strong></div></div></header>
+    <section class="game-panel" aria-label="Game area"><div class="status"><span id="health">❤ ❤ ❤ ❤ ❤</span><span id="message" aria-live="polite">Press Start to play</span><span id="crystals">💎 0</span></div><div class="canvas-wrap"><canvas id="game" width="960" height="540" aria-label="Top-down fantasy arcade game"></canvas><div class="overlay" id="overlay"><div class="overlay-card"><div class="rune">✦</div><h2 id="overlayTitle">ENTER THE DUNGEON</h2><p id="overlayText">Move with WASD or arrow keys. Swing your sword with Space or click/tap the arena. Survive and gather crystals.</p><button id="startBtn">START ADVENTURE →</button></div></div></div><div class="controls"><button id="pauseBtn" disabled>⏸ Pause</button><div class="instruction">MOVE <kbd>WASD</kbd> / <kbd>↑ ← ↓ →</kbd> &nbsp; ATTACK <kbd>SPACE</kbd> / TAP</div><button id="restartBtn">↻ Restart</button></div></section>
+    <div class="touch-panel" aria-label="Touch controls"><div class="dpad"><button data-key="ArrowUp" aria-label="Move up">▲</button><div><button data-key="ArrowLeft" aria-label="Move left">◀</button><button data-key="ArrowDown" aria-label="Move down">▼</button><button data-key="ArrowRight" aria-label="Move right">▶</button></div></div><button class="attack-btn" id="attackBtn">⚔ ATTACK</button></div>
+    <footer><span>Original demo game · HTML5 Canvas · No external dependencies</span><a href="https://github.com/basiliskouloumpis/fantasy-2d-arcade" target="_blank" rel="noopener noreferrer">View GitHub ↗</a></footer>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>
