@@ -4,7 +4,7 @@ An **original**, dependency-free, fantasy-themed survival arcade game built with
 
 > This is a new implementation prepared for the `fantasy-2d-arcade` repository. It is **not** a verified reproduction of any pre-existing repository source code.
 
-## 🎮 Play
+##  Play
 
 Open `index.html` in any modern browser, or publish the repository using **GitHub Pages**.
 
@@ -16,7 +16,7 @@ Open `index.html` in any modern browser, or publish the repository using **GitHu
 
 Defeat enemies, collect dropped crystals, survive increasingly difficult waves, and beat your locally saved high score.
 
-## 🧩 Files
+##  Files
 
 | File | Role |
 | --- | --- |
