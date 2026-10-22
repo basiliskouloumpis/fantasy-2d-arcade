@@ -1,4 +1,4 @@
-# ⚔ Fantasy 2D Arcade — Dungeon Defender
+#  Fantasy 2D Arcade — Dungeon Defender
 
 An **original**, dependency-free, fantasy-themed survival arcade game built with HTML5 Canvas, CSS, and JavaScript.
 
